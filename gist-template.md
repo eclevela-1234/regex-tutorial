@@ -80,7 +80,7 @@ Look ahead and look behind allow RegExs to look around things. This can be used 
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+I am an aspiring web developer and data analyst based out of Richmond, Va. For more information please visit my portfolio page [here](https://eclevela-1234.github.io/folio-3-point-0/) 
 
 ## Works Cited
 
