@@ -27,6 +27,10 @@ This tutorial breaks down each component of a simple URL (Uniform Resource Locat
 ## Regex Components
 
 ### Anchors
+```
+/^ ... $/
+```
+The caret ^ and the dollar sign $ taken from the beginning and the end of the RegEx are anchors. Anchors belong to the family of regex tokens that don't match any characters, but that assert something about the string or the matching process. The ^ and $ anchors describe the beginning and the end of the expression. 
 
 ### Quantifiers
 
