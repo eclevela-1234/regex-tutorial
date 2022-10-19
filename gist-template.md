@@ -30,9 +30,12 @@ This tutorial breaks down each component of a simple URL (Uniform Resource Locat
 ```
 /^ ... $/
 ```
-The caret ^ and the dollar sign $ taken from the beginning and the end of the RegEx are anchors. Anchors belong to the family of regex tokens that don't match any characters, but that assert something about the string or the matching process. The ^ and $ anchors describe the beginning and the end of the expression. 
+The caret ^ and the dollar sign $ taken from the beginning and the end of the RegEx are anchors. Anchors belong to the family of regex tokens that don't match any characters, but that assert something about the string or the matching process. The ^ and $ anchors describe the beginning and the end of the expression. Implied above, is the principle that most of the characters describe which characters are to be matched.
 
 ### Quantifiers
+The question mark is used as a quantifier several times in this RegEx. The ? quantifier translates that there can be either 0 or 1 of the preceding item or group. In the first instance ``` https? ``` , the ? means that the s is optional but cannot occur more than once in this group of characters. Ergo, it can be http or https. In the second instance the ? appears after a parenthesis. ``` (https?:\/\/)? ``` This means the entire group is optional. 
+
+For example it could be either http://www.hotmail.com, https://www.hotmail.com or www.hotmail.com. But not httpss/... or http://http:// because the ? quantifier specifies only 0 or 1 will be mathced and no more.
 
 ### OR Operator
 
