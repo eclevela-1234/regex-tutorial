@@ -23,6 +23,7 @@ This tutorial breaks down each component of a simple URL (Uniform Resource Locat
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [Works Cited](#works-cited)
 
 ## Regex Components
 
@@ -74,6 +75,8 @@ Back-references are used to reference a previously defined group. There are none
 
 
 ### Look-ahead and Look-behind
+
+Look ahead and look behind allow RegExs to look around things. This can be used when you need a match for two or more non-adjacent substrings. For more information take gander at this page. https://javascript.info/regexp-lookahead-lookbehind
 
 ## Author
 
