@@ -53,18 +53,34 @@ The class is further desribed by the [] brackets which means all if its contents
 
 ### Flags
 
+A flag is an optional parameter to a regex that modifies its behavior of searching. A common one is the i flag which ignores casing. for example a is considered the same as A.
+
+https://www.codeguage.com/courses/regexp/flags
+
 ### Grouping and Capturing
+The parentheses are used to demark substrings within the RegEx. Many are use and described in the context above
 
 ### Bracket Expressions
-
+[] Brackets are used to group item, essentially form a class as descrided in the class section above. Every thing within the brackets is interchangable [a-z] means a, ab, abc, abcde and so forth are all matches.
 ### Greedy and Lazy Match
 
+A greedy match, essential means that the algorithm will search for as many matches as possible by searchin the entire string. A lazy match with search for the smallest number of occurrences. This can lead to different results based on the context. For more information on this, visit this website. https://javascript.info/regexp-greedy-and-lazy
+
 ### Boundaries
+\b amd \B are common uses of boundaries in RegEx. In the context of words \b can be either on the left or right of the substring describing where the word ends. \bice would find icey but not nice because the boundary is on the left and vice versa with ice\b. The capital \B tells the RegEx to ignore the boundary. For more info, visit this website. https://www.rexegg.com/regex-boundaries.html#anchors  
 
 ### Back-references
+Back-references are used to reference a previously defined group. There are none in this RegEx however, for more information, visit this website. https://javascript.info/regexp-backreferences 
+
 
 ### Look-ahead and Look-behind
 
 ## Author
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+
+## Works Cited
+
+https://regexr.com/
+
+various google searches...
