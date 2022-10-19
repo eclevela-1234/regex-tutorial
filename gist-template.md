@@ -1,10 +1,14 @@
-# Title (replace with your title)
+# Understanding the email string regular expression:  A brief tutorial
 
-Introductory paragraph (replace this with your text)
+The wonderful thing about RegEXs, is RegExs are wonderful things! Regular expressions are often used to enforce data validation in nearly any application imaginable. First developed in the early days of computing, they exist in nearly all coding languages often using very similar syntax. Regular expressions have probably improved your life in more ways than you realize. Not just through data validations (think email/password verification) but through common search and find features in many apps. The patterns can be strictly or loosely defined based on the desired purpose.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This tutorial breaks down each component of a simple URL (Uniform Resource Locator) regular expression while breifly introducing each tool in the RegEx toolbox. Below is the exact syntax of the RegEx we will examine:
+
+```
+/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+```
 
 ## Table of Contents
 
